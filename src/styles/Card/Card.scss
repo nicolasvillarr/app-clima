@@ -1,0 +1,32 @@
+.cardCont{
+    color: #ffffff;
+    display: block;
+    justify-content: center;
+    align-content: center;
+    float: left;
+    flex-flow: column;
+    margin: 20px;
+    width: 250px;
+    border-radius: 10px;
+    background-image: url("./backgroundCard.jpg");
+    height: 100%;
+    background-size:cover;                 
+   background-repeat:no-repeat;
+   background-position:center;
+   border: 1px solid #fff;
+}
+.contTemp{
+    background-color: rgba(212, 215, 226, 0.24);
+    backdrop-filter:blur(10px);
+}
+.btn{
+    position: relative;
+    margin: 5px 0px 0px 5px;  
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    padding: auto;
+    justify-content: center;
+    border: 1px solid #ffffff00;
+    background-color: rgba(212, 215, 226, 0.24);
+    backdrop-filter:blur(10px);
+}
